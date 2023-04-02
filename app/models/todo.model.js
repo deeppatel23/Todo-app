@@ -37,4 +37,6 @@ Todo.init({
   timestamps: true
 });
 
+Todo.sync();
+
 module.exports = Todo;
